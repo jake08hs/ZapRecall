@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Deck from "./components/Deck";
 import flashcards from "./data/flashcards";
+import raio from "./assets/raio.png"; 
 
 export default function App() {
   const [statuses, setStatuses] = useState(Array(flashcards.length).fill(""));
@@ -17,7 +18,7 @@ export default function App() {
     <PageFundo>
       <Container>
         <Cabecalho>
-          <img src="/src/assets/raio.png" alt="raio" />
+            <img src={raio} alt="raio" />
           ZapRecall
         </Cabecalho>
 
