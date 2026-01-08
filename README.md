@@ -1,5 +1,5 @@
 ## 🚀 Deploy
 
 🔗 Acesse a aplicação em produção:  
-https://SEU-LINK-DA-VERCEL.vercel.app
+https://zap-recall-one-umber.vercel.app
 
