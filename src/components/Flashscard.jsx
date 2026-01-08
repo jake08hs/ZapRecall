@@ -5,7 +5,7 @@ export default function Card({ index, card, aoResponder }) {
   const [etapa, setEtapa] = useState("fechado"); 
   const [status, setStatus] = useState(""); 
 
-  // Tela 1
+
   if (etapa === "fechado") {
     return (
       <CardFechado status={status}>
@@ -15,7 +15,7 @@ export default function Card({ index, card, aoResponder }) {
     );
   }
 
-  // Tela 2
+  
   if (etapa === "pergunta") {
     return (
       <CardAberto>
@@ -25,7 +25,7 @@ export default function Card({ index, card, aoResponder }) {
     );
   }
 
-  // Tela 3
+
   if (etapa === "resposta") {
     return (
       <CardAberto>
